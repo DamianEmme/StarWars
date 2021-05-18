@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import Saber from "../../img/lightsaber.png";
+import Footers from "../../img/footers.png";
 
 export const Footer = () => (
-	<footer className="footer mt-auto py-3 text-center">
-		<img src={Saber} />
+	<footer className="footer d-flex w-100 h-100 mx-auto flex-column">
+		<img src={Footers} />
 	</footer>
 );
