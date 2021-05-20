@@ -24,6 +24,9 @@ export function Characters() {
 									<Link to={"/details-characters/" + index}>
 										<span className="btn btn-outline-light">Learn more!</span>
 									</Link>
+									<button type="button" className="btn btn-outline-light">
+										<i className="fas fa-heart" />
+									</button>
 								</div>
 							</div>
 						</div>
