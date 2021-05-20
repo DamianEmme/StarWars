@@ -12,7 +12,7 @@ export const Navbar = () => {
 			</Link>
 			<div className="dropdown">
 				<a
-					className="btn btn-light dropdown-toggle"
+					className="btn btn-danger dropdown-toggle"
 					href="#"
 					role="button"
 					id="dropdownMenuLink"

@@ -24,6 +24,9 @@ export function Starships() {
 									<Link to={"/details-starships/" + index}>
 										<span className="btn btn-outline-light">Learn more!</span>
 									</Link>
+									<button type="button" className="btn btn-outline-danger">
+										<i className="fas fa-heart" />
+									</button>
 								</div>
 							</div>
 						</div>
