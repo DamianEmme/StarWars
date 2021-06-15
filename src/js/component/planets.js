@@ -21,7 +21,7 @@ export function Planets() {
 									incididunt ut labore et dolore magna aliqua.
 								</p>
 								<div className="d-flex justify-content-between align-items-center">
-									<Link to={"/details-planets/" + index}>
+									<Link to={"/planets-info/" + index}>
 										<span className="btn btn-outline-light">Learn more!</span>
 									</Link>
 									<button type="button" className="btn btn-outline-danger">
